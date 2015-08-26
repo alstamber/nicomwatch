@@ -2,7 +2,11 @@
 Watch the number of members in specified niconico-community and record it every day.
 
 # How to use
-1. run `bundle install`
+1. Run command
+  ```bash
+  bundle install --path=vendor/bundle
+  mkdir log
+  ```
 
 1. Edit `config/schedule.rb`
   ```ruby
