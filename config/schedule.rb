@@ -1,5 +1,7 @@
 set :output, 'log/crontab.log'
 
+comno = "2500567"
+
 every 1.day, at: '0:00 am' do
-  script "main.rb 2500567"
+  script "main.rb #{comno}"
 end
